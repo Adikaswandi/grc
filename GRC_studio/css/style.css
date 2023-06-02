@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@600&family=Hind:wght@300&family=Montserrat:wght@600&family=Pacifico&family=Qwigley&family=Sacramento&family=Stalemate&family=Sue+Ellen+Francisco&family=Truculenta&family=Yellowtail&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+header.navbar-container {
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+    padding-block: 1rem;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    background-color: rgba(177, 236, 236, 0.527);
+}
+
+.navbar-container .judul img {
+    width: 50px;
+    border-radius: 999px;
+}
+
+
+
+header.navbar-container .nav-list ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+
+}
+   
+header.navbar-container .nav-list li {
+    list-style-type: none;
+}
+   
+header.navbar-container .nav-list li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    padding: .5rem 1rem;
+    transition: all .2s ease-in-out;
+
+    font-family: 'Hind', sans-serif;
+   
+}
+   
+header.navbar-container .nav-list li:hover a {
+    font-weight: bold;
+}
+
+/* navbar */
+
+
+/* hero */
+.container {
+    width: auto;
+    height: 550px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.container article {
+    padding-left: 2rem;
+    align-items: center;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.container article h1 {
+    font-weight: bold;
+    font-family: 'Truculenta', sans-serif;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+.container article p {
+    font-size: 1.1rem;
+}
+
+.container .icon-header img {
+    width: 400px;
+    /* padding-left: 2rem; */
+}
+/* hero */
+
+
+/* jasa */
+.container-jasa .group1 {
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.container-jasa .group2 {
+    display: flex;
+    gap: 2rem;
+}
+
+main .jasa h1 {
+    padding-block: 4rem;
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;
+    text-decoration: underline;
+
+}
+
+.container-jasa {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* justify-content: space-evenly; */
+    text-align: center;
+    padding-bottom: 3rem;
+    /* padding-inline: 2rem; */
+}
+
+.container-jasa img {
+    width: 150px;
+    /* border: 2px black solid;
+    border-radius: 999px; */
+}
+
+
+
+/* gallery */
+.container-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.container-gallery img {
+    width: 250px;
+}
+
+.gallery h1 {
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;
+    padding: 3rem 0 5rem 0;
+    text-decoration: underline;
+
+
+}
+/* gallery */
+
+
+/* album */
+
+main#album {
+    background-color: #deeffd8f;
+    margin-top: -5px;
+}
+
+.album h1 {
+    font-family: 'Truculenta', sans-serif;
+    text-align: center;
+    padding-bottom: 3rem;
+    text-decoration: underline;
+
+}
+
+
+.container-album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+.container-album .album-satu, .album-dua, .album-tiga {
+    border-bottom: 1px solid black;
+    margin-inline: 2rem;
+}
+
+.container-album .album-satu, .album-dua, .album-tiga, .album-empat {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2rem;
+    /* border: #000000 1px solid;
+    border-radius: 9px; */
+
+    box-sizing: border-box;
+}
+
+.container-album img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+.container-album .img-album {
+    width: 300px;
+}
+
+
+.container-album article {
+    width: 300px;
+}
+
+.container-album .album-empat {
+    padding-bottom: 5rem;
+} 
+
+/* album */
+
+
+/* sosmed */
+.h-sosmed h4 {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.container-sosmed .sosmed img{
+    width: 30px;
+}
+
+.container-sosmed {
+    display: flex;
+    justify-content: center;
+}
+
+.container-sosmed .sosmed {
+    background-color: #deeffd8f;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sosmed .sosmed ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.container-sosmed .sosmed ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+/* sosmed */
+
+
+
+/* map */
+#lokasi {
+    background-color: #deeffd8f;
+    margin-top: -5px;
+
+
+}
+
+main .lokasi h1 {
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;
+    padding-top: 5rem;
+    text-decoration: underline;
+}
+
+.container-map {
+    display: flex;
+    justify-content: center;
+    padding-block: 3rem;
+
+    
+}
+
+.container-map .map {
+    border: 3px black solid;
+
+}
+
+.container-map .map iframe{
+    width: 350px;
+}
+/* map */
+
+
+/* aside */
+aside h1 {
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;
+    padding-block: 5rem;
+    text-decoration: underline;
+}
+
+.container-aside {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.container-aside .biodata {
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 20px;
+
+    background-color: #cdf1f5;
+    border: 4px #425c77 solid;
+}
+
+.container-aside .biodata .data-diri img {
+    width: auto;
+    height: 200px;
+    border-radius: 999px;
+    border: 1.5px black solid;
+}
+
+.container-aside .biodata .data-diri table {
+    padding-block: 4rem;
+}
+
+.container-aside .biodata .data-diri p.position {
+    text-align: center;
+    margin-top: 3rem;
+    padding: .5rem;
+    border-radius: 99px;
+    border: 1px black solid;
+
+    background-color: #4DAAFF;
+
+}
+
+.container-aside .biodata .data-diri p {
+    width: 200px;
+    text-align: justify;
+}
+
+/* aside */
+
+
+
+
+
+
+footer {
+    height: 50px;
+    background-color: #425c77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 908px) {
+    .container-album .album-dua article{
+        order: 2;
+    }
+    .container-album .album-empat article{
+        order: 2;
+    }
+
+}
+
+
+@media screen and (max-width: 410px) {
+    header nav {
+        display: none;
+        overflow: hidden;
+    }
+}
